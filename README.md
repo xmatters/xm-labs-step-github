@@ -13,6 +13,7 @@ This step allows you to get the commit details from a given repo and user. Great
 
 # Files
 
+* [GithubSteps.zip](GithubSteps.zip) - Workflow zip file with the step and example flow
 * [GitHub-small.png](/GitHub-small.png) - GitHub logo
 
 # How it works
@@ -25,7 +26,7 @@ The step pulls the commit information using the GitHub REST API GET `/repos/{Use
 None. This uses repos in GitHub.com which are public. If your GitHub requires authentication, some tweaking might be needed. 
 
 ## xMatters Setup
-1. Download the GithubStep.zip file onto your local computer
+1. Download the [GithubSteps.zip](GithubSteps.zip) file onto your local computer
 2. Navigate to the Developer tab of your xMatters instance
 3. Click Import, and select the zip file you just downloaded
 
