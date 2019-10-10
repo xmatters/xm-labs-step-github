@@ -32,7 +32,7 @@ None. This uses repos in GitHub.com which are public. If your GitHub requires au
 
 
 ## Usage
-The *GitHub - Get last commit* step is now available in your custom steps. So navigate to the appropriate canvas so you can add the step there. If you'd like to experiment with it, the **GitHub Steps** workflow has a canvas that can be triggered via HTTP call. 
+The **GitHub - Get last commit** step is now available in your custom steps. So navigate to the appropriate canvas so you can add the step there. If you'd like to experiment with it, the **GitHub Steps** workflow has a canvas that can be triggered via HTTP call. 
 
 ### Inputs
 | Name  | Required? | Min | Max | Help Text | Default Value | Multiline |
