@@ -53,8 +53,8 @@ The **GitHub - Get Last Commit** step can be used to query for the last commit f
 ### Inputs
 | Name  | Required? | Min | Max | Help Text | Default Value | Multiline |
 | ----- | ----------| --- | --- | --------- | ------------- | --------- |
-| Continue On Error | No | 0 | 5 | The name of the repository | false | No |
-| Repository Owner  | No | 0 | 2000 | The username or organization the repository lives under | | No |
+| Continue On Error | No | 0 | 5 | Continue flow if step encounters an error. Other steps could fail if they depend on outputs | false | No |
+| Repository Owner  | No | 0 | 2000 | The repository owner or organization | | No |
 | Repository Name | No | 0 | 2000 | The name of the repository | | No |
 | Ref | No | 0 | 2000 | Branch or Tag | | No |
 
@@ -82,8 +82,8 @@ The **GitHub - Get Commit** step can be used to query for a specific commit usin
 ### Inputs
 | Name  | Required? | Min | Max | Help Text | Default Value | Multiline |
 | ----- | ----------| --- | --- | --------- | ------------- | --------- |
-| Continue On Error | No | 0 | 5 | The name of the repository | false | No |
-| Repository Owner  | No | 0 | 2000 | The username or organization the repository lives under | | No |
+| Continue On Error | No | 0 | 5 | Continue flow if step encounters an error. Other steps could fail if they depend on outputs | false | No |
+| Repository Owner  | No | 0 | 2000 | The repository owner or organization | | No |
 | Repository Name | No | 0 | 2000 | The name of the repository | | No |
 | SHA | No | 0 | 2000 | The SHA hash of the commit | | No |
 
@@ -110,8 +110,8 @@ The **GitHub - Get Pull Request** step can be used to query for a specific pull 
 ### Inputs
 | Name  | Required? | Min | Max | Help Text | Default Value | Multiline |
 | ----- | ----------| --- | --- | --------- | ------------- | --------- |
-| Continue On Error | No | 0 | 5 | The name of the repository | false | No |
-| Repository Owner  | No | 0 | 2000 | The username or organization the repository lives under | | No |
+| Continue On Error | No | 0 | 5 | Continue flow if step encounters an error. Other steps could fail if they depend on outputs | false | No |
+| Repository Owner  | No | 0 | 2000 | The repository owner or organization | | No |
 | Repository Name | No | 0 | 2000 | The name of the repository | | No |
 | Pull Request Number | No | 0 | 2000 | The pull request number | | No |
 
@@ -138,8 +138,8 @@ The **GitHub - Trigger Workflow** step can be used to start a GitHub workflow wi
 ### Inputs
 | Name  | Required? | Min | Max | Help Text | Default Value | Multiline |
 | ----- | ----------| --- | --- | --------- | ------------- | --------- |
-| Continue On Error | No | 0 | 5 | The name of the repository | false | No |
-| Repository Owner  | No | 0 | 2000 | The username or organization the repository lives under | | No |
+| Continue On Error | No | 0 | 5 | Continue flow if step encounters an error. Other steps could fail if they depend on outputs | false | No |
+| Repository Owner  | No | 0 | 2000 | The repository owner or organization | | No |
 | Repository Name | No | 0 | 2000 | The name of the repository | | No |
 | Workflow | No | 0 | 2000 | Workflow ID or file name | | No |
 | Ref | No | 0 | 2000 | Branch or Tag where the workflow is located | | No |
