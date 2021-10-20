@@ -17,10 +17,10 @@ Steps that allow various interactions with GitHub
 * [GitHub-small.png](/GitHub-small.png) - GitHub logo
 
 # How it works
-- GitHub - Get Last Commit : queries for the last commit for a branch or tag and returns details
-- GitHub - Get Commit : queries for a specific commit and returns details
-- GetHub - Get Pull Request : queries for a specific pull request and returns details
-- GetHub - Trigger Workflow : triggers a GitHub workflow
+- **GitHub - Get Last Commit** : queries for the last commit for a branch or tag and returns details
+- **GitHub - Get Commit** : queries for a specific commit and returns details
+- **GetHub - Get Pull Request** : queries for a specific pull request and returns details
+- **GetHub - Trigger Workflow** : triggers a GitHub workflow
 
 
 # Installation
